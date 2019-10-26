@@ -1,0 +1,11 @@
+#version 330
+
+glsl layout(location=1) in vec3 vertex_color;
+glsl out vec3 v_color;
+layout(location=0) in vec3 vertex_position;
+
+void main()
+{
+	gl_Position = vec4(vertex_position, 1.f);
+	v_color=vertex_color;
+}

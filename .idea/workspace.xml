@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="PG3D_OGLSamples" targetName="OGLAppFramework" />
+      <config projectName="PG3D_OGLSamples" targetName="OGLSample1_Triangle" />
+      <config projectName="PG3D_OGLSamples" targetName="OGLSample3_VS_FS_Interpolation" />
+      <config projectName="PG3D_OGLSamples" targetName="OGLSample0_EmptyScreen" />
+      <config projectName="PG3D_OGLSamples" targetName="OGLSample4_UBO_Intensity" />
+      <config projectName="PG3D_OGLSamples" targetName="OGLSample2_IB_VBO" />
+      <config projectName="PG3D_OGLSamples" targetName="OGLSample5_PVM" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0695fb4-f88d-49ed-b234-b2545eff8a16" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1SjcSK7MmxuiOLhuPCvvcJRmw6I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/shaders" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.OGLSample5_PVM">
+    <configuration name="OGLAppFramework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PG3D_OGLSamples" TARGET_NAME="OGLAppFramework" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OGLSample0_EmptyScreen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PG3D_OGLSamples" TARGET_NAME="OGLSample0_EmptyScreen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PG3D_OGLSamples" RUN_TARGET_NAME="OGLSample0_EmptyScreen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OGLSample1_Triangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PG3D_OGLSamples" TARGET_NAME="OGLSample1_Triangle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PG3D_OGLSamples" RUN_TARGET_NAME="OGLSample1_Triangle">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OGLSample2_IB_VBO" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PG3D_OGLSamples" TARGET_NAME="OGLSample2_IB_VBO" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PG3D_OGLSamples" RUN_TARGET_NAME="OGLSample2_IB_VBO">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OGLSample3_VS_FS_Interpolation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PG3D_OGLSamples" TARGET_NAME="OGLSample3_VS_FS_Interpolation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PG3D_OGLSamples" RUN_TARGET_NAME="OGLSample3_VS_FS_Interpolation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OGLSample4_UBO_Intensity" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PG3D_OGLSamples" TARGET_NAME="OGLSample4_UBO_Intensity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PG3D_OGLSamples" RUN_TARGET_NAME="OGLSample4_UBO_Intensity">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OGLSample5_PVM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PG3D_OGLSamples" TARGET_NAME="OGLSample5_PVM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PG3D_OGLSamples" RUN_TARGET_NAME="OGLSample5_PVM">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.OGLAppFramework" />
+      <item itemvalue="CMake Application.OGLSample0_EmptyScreen" />
+      <item itemvalue="CMake Application.OGLSample1_Triangle" />
+      <item itemvalue="CMake Application.OGLSample2_IB_VBO" />
+      <item itemvalue="CMake Application.OGLSample3_VS_FS_Interpolation" />
+      <item itemvalue="CMake Application.OGLSample4_UBO_Intensity" />
+      <item itemvalue="CMake Application.OGLSample5_PVM" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0695fb4-f88d-49ed-b234-b2545eff8a16" name="Default Changelist" comment="" />
+      <created>1572080443695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572080443695</updated>
+      <workItem from="1572080444805" duration="586000" />
+      <workItem from="1572081042791" duration="4714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

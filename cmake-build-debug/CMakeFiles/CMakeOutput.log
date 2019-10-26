@@ -1,0 +1,438 @@
+The system is: Darwin - 18.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/gcc-8 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/g++-8 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6fbeb/fast && /Applications/Xcode_10.3.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6fbeb.dir/build.make CMakeFiles/cmTC_6fbeb.dir/build
+Building C object CMakeFiles/cmTC_6fbeb.dir/testCCompiler.c.o
+/usr/local/bin/gcc-8   -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_6fbeb.dir/testCCompiler.c.o   -c "/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_6fbeb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fbeb.dir/link.txt --verbose=1
+/usr/local/bin/gcc-8   -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6fbeb.dir/testCCompiler.c.o  -o cmTC_6fbeb 
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aec12/fast && /Applications/Xcode_10.3.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aec12.dir/build.make CMakeFiles/cmTC_aec12.dir/build
+Building C object CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/gcc-8   -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc-8
+Target: x86_64-apple-darwin18
+Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc@8/8.3.0 --libdir=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+Thread model: posix
+gcc version 8.3.0 (Homebrew GCC 8.3.0) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/cc1 -quiet -v -D__DYNAMIC__ -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpbase CMakeCCompilerABI.c -mmacosx-version-min=10.14.0 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o -version -o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//cc1xlUx0.s
+GNU C17 (Homebrew GCC 8.3.0) version 8.3.0 (x86_64-apple-darwin18)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../x86_64-apple-darwin18/include"
+ignoring nonexistent directory "/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include
+ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed
+ /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
+ /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
+End of search list.
+GNU C17 (Homebrew GCC 8.3.0) version 8.3.0 (x86_64-apple-darwin18)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 5ae592ef89cd3c53bc945a5825b4157f
+COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=10.14.0'  '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.14 -o CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//cc1xlUx0.s
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode_10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode_10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.14.0 -filetype obj -main-file-name cc1xlUx0.s -target-cpu penryn -fdebug-compilation-dir /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer Apple LLVM version 10.0.1 (clang-1001.0.46.4) -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//cc1xlUx0.s
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=10.14.0'  '-mtune=core2'
+Linking C executable cmTC_aec12
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aec12.dir/link.txt --verbose=1
+/usr/local/bin/gcc-8   -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o  -o cmTC_aec12 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc-8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/lto-wrapper
+Target: x86_64-apple-darwin18
+Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc@8/8.3.0 --libdir=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+Thread model: posix
+gcc version 8.3.0 (Homebrew GCC 8.3.0) 
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'cmTC_aec12' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_aec12 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 8.3.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_aec12 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0
+	/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8
+	/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+ /usr/bin/nm -n CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include]
+    add: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed]
+    add: [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+    add: [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  end of search list found
+  collapse include dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include]
+  collapse include dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed]
+  collapse include dir [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  collapse include dir [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks] ==> [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit include dirs: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_aec12/fast && /Applications/Xcode_10.3.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aec12.dir/build.make CMakeFiles/cmTC_aec12.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/gcc-8   -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc-8]
+  ignore line: [Target: x86_64-apple-darwin18]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc@8/8.3.0 --libdir=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Homebrew GCC 8.3.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-mtune=core2']
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/cc1 -quiet -v -D__DYNAMIC__ -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpbase CMakeCCompilerABI.c -mmacosx-version-min=10.14.0 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o -version -o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//cc1xlUx0.s]
+  ignore line: [GNU C17 (Homebrew GCC 8.3.0) version 8.3.0 (x86_64-apple-darwin18)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../x86_64-apple-darwin18/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include]
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed]
+  ignore line: [ /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Homebrew GCC 8.3.0) version 8.3.0 (x86_64-apple-darwin18)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 5ae592ef89cd3c53bc945a5825b4157f]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=10.14.0'  '-mtune=core2']
+  ignore line: [ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.14 -o CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//cc1xlUx0.s]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode_10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [ "/Applications/Xcode_10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.14.0 -filetype obj -main-file-name cc1xlUx0.s -target-cpu penryn -fdebug-compilation-dir /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer Apple LLVM version 10.0.1 (clang-1001.0.46.4) -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//cc1xlUx0.s]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=10.14.0'  '-mtune=core2']
+  ignore line: [Linking C executable cmTC_aec12]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aec12.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/gcc-8   -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o  -o cmTC_aec12 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc-8]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin18]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc@8/8.3.0 --libdir=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Homebrew GCC 8.3.0) ]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'cmTC_aec12' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_aec12 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aec12] ==> ignore
+    arg [-L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0] ==> dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0]
+    arg [-L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../..] ==> dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_aec12.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0]
+  collapse library dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../..] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8]
+  collapse library dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0]
+  collapse library dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8]
+  collapse library dir [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [gcc_ext.10.5;gcc]
+  implicit dirs: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72702/fast && /Applications/Xcode_10.3.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_72702.dir/build.make CMakeFiles/cmTC_72702.dir/build
+Building CXX object CMakeFiles/cmTC_72702.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++-8    -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_72702.dir/testCXXCompiler.cxx.o -c "/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_72702
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72702.dir/link.txt --verbose=1
+/usr/local/bin/g++-8    -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72702.dir/testCXXCompiler.cxx.o  -o cmTC_72702 
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75245/fast && /Applications/Xcode_10.3.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75245.dir/build.make CMakeFiles/cmTC_75245.dir/build
+Building CXX object CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++-8    -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+Target: x86_64-apple-darwin18
+Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc@8/8.3.0 --libdir=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+Thread model: posix
+gcc version 8.3.0 (Homebrew GCC 8.3.0) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mmacosx-version-min=10.14.0 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//ccwibnHX.s
+GNU C++14 (Homebrew GCC 8.3.0) version 8.3.0 (x86_64-apple-darwin18)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../x86_64-apple-darwin18/include"
+ignoring nonexistent directory "/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0
+ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18
+ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward
+ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include
+ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed
+ /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include
+ /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks
+End of search list.
+GNU C++14 (Homebrew GCC 8.3.0) version 8.3.0 (x86_64-apple-darwin18)
+	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ea78c4821676e99b7ebff21bc12946f6
+COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.14.0'  '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.14 -o CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//ccwibnHX.s
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode_10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode_10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.14.0 -filetype obj -main-file-name ccwibnHX.s -target-cpu penryn -fdebug-compilation-dir /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer Apple LLVM version 10.0.1 (clang-1001.0.46.4) -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//ccwibnHX.s
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.14.0'  '-shared-libgcc' '-mtune=core2'
+Linking CXX executable cmTC_75245
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75245.dir/link.txt --verbose=1
+/usr/local/bin/g++-8    -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_75245 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/lto-wrapper
+Target: x86_64-apple-darwin18
+Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc@8/8.3.0 --libdir=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+Thread model: posix
+gcc version 8.3.0 (Homebrew GCC 8.3.0) 
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'cmTC_75245' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_75245 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+collect2 version 8.3.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_75245 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:16:53 Apr  5 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0
+	/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8
+	/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/
+ /usr/bin/nm -n CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0]
+    add: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18]
+    add: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward]
+    add: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include]
+    add: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed]
+    add: [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+    add: [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  end of search list found
+  collapse include dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0] ==> [/usr/local/Cellar/gcc@8/8.3.0/include/c++/8.3.0]
+  collapse include dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18] ==> [/usr/local/Cellar/gcc@8/8.3.0/include/c++/8.3.0/x86_64-apple-darwin18]
+  collapse include dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward] ==> [/usr/local/Cellar/gcc@8/8.3.0/include/c++/8.3.0/backward]
+  collapse include dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include]
+  collapse include dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed]
+  collapse include dir [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include] ==> [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  collapse include dir [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks] ==> [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit include dirs: [/usr/local/Cellar/gcc@8/8.3.0/include/c++/8.3.0;/usr/local/Cellar/gcc@8/8.3.0/include/c++/8.3.0/x86_64-apple-darwin18;/usr/local/Cellar/gcc@8/8.3.0/include/c++/8.3.0/backward;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_75245/fast && /Applications/Xcode_10.3.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75245.dir/build.make CMakeFiles/cmTC_75245.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/g++-8    -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++-8]
+  ignore line: [Target: x86_64-apple-darwin18]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc@8/8.3.0 --libdir=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Homebrew GCC 8.3.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2']
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mmacosx-version-min=10.14.0 -mtune=core2 -auxbase-strip CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//ccwibnHX.s]
+  ignore line: [GNU C++14 (Homebrew GCC 8.3.0) version 8.3.0 (x86_64-apple-darwin18)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../x86_64-apple-darwin18/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0]
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18]
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward]
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include]
+  ignore line: [ /usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed]
+  ignore line: [ /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include]
+  ignore line: [ /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Homebrew GCC 8.3.0) version 8.3.0 (x86_64-apple-darwin18)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.21-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ea78c4821676e99b7ebff21bc12946f6]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.14.0'  '-shared-libgcc' '-mtune=core2']
+  ignore line: [ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.14 -o CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//ccwibnHX.s]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.4)]
+  ignore line: [Target: x86_64-apple-darwin18.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode_10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [ "/Applications/Xcode_10.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.14.0 -filetype obj -main-file-name ccwibnHX.s -target-cpu penryn -fdebug-compilation-dir /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles/CMakeTmp -dwarf-debug-producer Apple LLVM version 10.0.1 (clang-1001.0.46.4) -dwarf-version=4 -mrelocation-model pic -o CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o /var/folders/43/srk6p74j4sb3tlgxjc9ncd7rhg728t/T//ccwibnHX.s]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=10.14.0'  '-shared-libgcc' '-mtune=core2']
+  ignore line: [Linking CXX executable cmTC_75245]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75245.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/g++-8    -isysroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_75245 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++-8]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin18]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin18 --prefix=/usr/local/Cellar/gcc@8/8.3.0 --libdir=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-system-zlib --with-pkgversion='Homebrew GCC 8.3.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (Homebrew GCC 8.3.0) ]
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/:/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk' '-v' '-o' 'cmTC_75245' '-mmacosx-version-min=10.14.0' '-asm_macosx_version_min=10.14' '-shared-libgcc' '-mtune=core2']
+  link line: [ /usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -weak_reference_mismatches non-weak -o cmTC_75245 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0 -L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lSystem -v]
+    arg [/usr/local/Cellar/gcc@8/8.3.0/libexec/gcc/x86_64-apple-darwin18/8.3.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.14.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_75245] ==> ignore
+    arg [-L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0] ==> dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0]
+    arg [-L/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../..] ==> dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../..]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_75245.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0]
+  collapse library dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../..] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8]
+  collapse library dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0]
+  collapse library dir [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8] ==> [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8]
+  collapse library dir [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib] ==> [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+  implicit libs: [stdc++;gcc_ext.10.5;gcc]
+  implicit dirs: [/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0;/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8;/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode_10.3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks]
+
+

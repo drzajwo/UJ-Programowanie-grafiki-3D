@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PG3D_OGLSamples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\libs\;CMake Files\src\libs\OGLAppFramework\;CMake Files\src\OGLSample0_EmptyScreen\;CMake Files\src\OGLSample1_Triangle\;CMake Files\src\OGLSample2_IB_VBO\;CMake Files\src\OGLSample3_VS_FS_Interpolation\;CMake Files\src\OGLSample4_UBO_Intensity\;CMake Files\src\OGLSample5_PVM\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLAppFramework">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/libOGLAppFramework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 OGLAppFramework"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLAppFramework/fast">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/libOGLAppFramework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 OGLAppFramework/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample0_EmptyScreen">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/OGLSample0_EmptyScreen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/Makefile&quot;  VERBOSE=1 OGLSample0_EmptyScreen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample0_EmptyScreen/fast">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/OGLSample0_EmptyScreen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/Makefile&quot;  VERBOSE=1 OGLSample0_EmptyScreen/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample1_Triangle">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/OGLSample1_Triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/Makefile&quot;  VERBOSE=1 OGLSample1_Triangle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample1_Triangle/fast">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/OGLSample1_Triangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/Makefile&quot;  VERBOSE=1 OGLSample1_Triangle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample1_Triangle/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample2_IB_VBO">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/OGLSample2_IB_VBO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 OGLSample2_IB_VBO"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample2_IB_VBO/fast">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/OGLSample2_IB_VBO" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 OGLSample2_IB_VBO/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample2_IB_VBO/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample3_VS_FS_Interpolation">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/OGLSample3_VS_FS_Interpolation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/Makefile&quot;  VERBOSE=1 OGLSample3_VS_FS_Interpolation"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample3_VS_FS_Interpolation/fast">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/OGLSample3_VS_FS_Interpolation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/Makefile&quot;  VERBOSE=1 OGLSample3_VS_FS_Interpolation/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample4_UBO_Intensity">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/OGLSample4_UBO_Intensity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/Makefile&quot;  VERBOSE=1 OGLSample4_UBO_Intensity"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample4_UBO_Intensity/fast">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/OGLSample4_UBO_Intensity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/Makefile&quot;  VERBOSE=1 OGLSample4_UBO_Intensity/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample5_PVM">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/OGLSample5_PVM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/Makefile&quot;  VERBOSE=1 OGLSample5_PVM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLSample5_PVM/fast">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/OGLSample5_PVM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/Makefile&quot;  VERBOSE=1 OGLSample5_PVM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample0_EmptyScreen/libs.h">
+			<Option target="OGLSample0_EmptyScreen"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample0_EmptyScreen/main.cpp">
+			<Option target="OGLSample0_EmptyScreen"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample0_EmptyScreen/sampleapp.cpp">
+			<Option target="OGLSample0_EmptyScreen"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample0_EmptyScreen/sampleapp.h">
+			<Option target="OGLSample0_EmptyScreen"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample1_Triangle/libs.h">
+			<Option target="OGLSample1_Triangle"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample1_Triangle/main.cpp">
+			<Option target="OGLSample1_Triangle"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample1_Triangle/sampleapp.cpp">
+			<Option target="OGLSample1_Triangle"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample1_Triangle/sampleapp.h">
+			<Option target="OGLSample1_Triangle"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample2_IB_VBO/libs.h">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample2_IB_VBO/main.cpp">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample2_IB_VBO/sampleapp.cpp">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample2_IB_VBO/sampleapp.h">
+			<Option target="OGLSample2_IB_VBO"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample3_VS_FS_Interpolation/libs.h">
+			<Option target="OGLSample3_VS_FS_Interpolation"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample3_VS_FS_Interpolation/main.cpp">
+			<Option target="OGLSample3_VS_FS_Interpolation"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample3_VS_FS_Interpolation/sampleapp.cpp">
+			<Option target="OGLSample3_VS_FS_Interpolation"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample3_VS_FS_Interpolation/sampleapp.h">
+			<Option target="OGLSample3_VS_FS_Interpolation"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample4_UBO_Intensity/libs.h">
+			<Option target="OGLSample4_UBO_Intensity"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample4_UBO_Intensity/main.cpp">
+			<Option target="OGLSample4_UBO_Intensity"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample4_UBO_Intensity/sampleapp.cpp">
+			<Option target="OGLSample4_UBO_Intensity"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample4_UBO_Intensity/sampleapp.h">
+			<Option target="OGLSample4_UBO_Intensity"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample5_PVM/libs.h">
+			<Option target="OGLSample5_PVM"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample5_PVM/main.cpp">
+			<Option target="OGLSample5_PVM"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample5_PVM/sampleapp.cpp">
+			<Option target="OGLSample5_PVM"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample5_PVM/sampleapp.h">
+			<Option target="OGLSample5_PVM"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/externallibs.h">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/oglappframework.h">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/oglapplication.cpp">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/oglapplication.h">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/utilities.cpp">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/utilities.h">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\OGLAppFramework\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample0_EmptyScreen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample0_EmptyScreen\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample1_Triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample1_Triangle\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample2_IB_VBO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample2_IB_VBO\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample3_VS_FS_Interpolation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample3_VS_FS_Interpolation\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample4_UBO_Intensity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample4_UBO_Intensity\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample5_PVM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample5_PVM\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOGLAppFramework.a  CMakeFiles/OGLAppFramework.dir/oglapplication.cpp.o CMakeFiles/OGLAppFramework.dir/utilities.cpp.o
+/usr/bin/ranlib libOGLAppFramework.a

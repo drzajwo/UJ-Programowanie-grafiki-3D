@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OGLAppFramework"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\libs\;CMake Files\src\libs\OGLAppFramework\;CMake Files\src\OGLSample0_EmptyScreen\;CMake Files\src\OGLSample1_Triangle\;CMake Files\src\OGLSample2_IB_VBO\;CMake Files\src\OGLSample3_VS_FS_Interpolation\;CMake Files\src\OGLSample4_UBO_Intensity\;CMake Files\src\OGLSample5_PVM\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLAppFramework">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/libOGLAppFramework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 OGLAppFramework"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OGLAppFramework/fast">
+				<Option output="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/libOGLAppFramework.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/glm/include"/>
+					<Add directory="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/libs/gli/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/x86_64-apple-darwin18"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/../../../../../../include/c++/8.3.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc@8/8.3.0/lib/gcc/8/gcc/x86_64-apple-darwin18/8.3.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 OGLAppFramework/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wojci/Desktop/doZgrania/Studia\ UJ/Grafika/cw/cmake-build-debug/src/libs/OGLAppFramework/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/externallibs.h">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/oglappframework.h">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/oglapplication.cpp">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/oglapplication.h">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/utilities.cpp">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/utilities.h">
+			<Option target="OGLAppFramework"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/libs/OGLAppFramework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\libs\OGLAppFramework\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample0_EmptyScreen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample0_EmptyScreen\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample1_Triangle/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample1_Triangle\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample2_IB_VBO/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample2_IB_VBO\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample3_VS_FS_Interpolation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample3_VS_FS_Interpolation\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample4_UBO_Intensity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample4_UBO_Intensity\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample5_PVM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample5_PVM\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
