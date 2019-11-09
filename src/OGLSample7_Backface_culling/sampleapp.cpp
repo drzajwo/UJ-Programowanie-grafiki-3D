@@ -1,6 +1,6 @@
 #include "sampleapp.h"
 
-SampleApp::SampleApp() : OGLAppFramework::OGLApplication(1366u, 768u, "OGLSample 6", 3u, 3u), simple_program(0u), vbo_handle(0u), index_buffer_handle(0u), vao_handle(0u)
+SampleApp::SampleApp() : OGLAppFramework::OGLApplication(1366u, 768u, "OGLSample 7", 3u, 3u), simple_program(0u), vbo_handle(0u), index_buffer_handle(0u), vao_handle(0u)
 {
 }
 
@@ -83,7 +83,7 @@ bool SampleApp::init(void)
     // oraz kolorach
     // zad 6. Każdy trójkąt musi być unikalny alby mieć swój kolor.
     std::array<gl::GLfloat, 96u> vertices = {
-        // Podstawa 1 trójkąt
+        // Podstawa 1 trójkąt GREEN
         -0.5f, 0.5f, 0.f,
         0.f, 1.0f, 0.f,
 
@@ -93,11 +93,11 @@ bool SampleApp::init(void)
         0.5f, -0.5f, 0.f,
         0.f, 1.f, 0.f,
 
-        // Podstawa 2 trójkąt
+        // Podstawa 2 trójkąt GREEN
         0.5f, 0.5f, 0.f,
         0.f, 1.f, 0.f,
 
-        // bok 1
+        // bok 1 RED
         -0.5f, 0.5f, 0.f,
         1.0, 0.f, 0.f,
 
@@ -107,27 +107,27 @@ bool SampleApp::init(void)
         0.f,  0.f, 1.f,
         1.0f, 0.f, 0.f,
 
-        // bok 2
+        // bok 2 BLUE
         -0.5f, 0.5f, 0.f,
         0.0, 0.f, 1.f,
-
-        0.5f, 0.5f, 0.f,
-        0.f, 0.f, 1.f,
 
         0.f,  0.f, 1.f,
         0.f, 0.f, 1.f,
 
-        // bok 3
         0.5f, 0.5f, 0.f,
+        0.f, 0.f, 1.f,
+
+        // bok 3 CYAN
+        0.f,  0.f, 1.f,
         0.f, 1.f, 1.f,
 
         0.5f, -0.5f, 0.f,
         0.f, 1.f, 1.f,
 
-        0.f,  0.f, 1.f,
+        0.5f, 0.5f, 0.f,
         0.f, 1.f, 1.f,
 
-        // bok 4
+        // bok 4 YELLOW
         -0.5f, -0.5f, 0.f,
         1.0f, 1.f, 0.f,
 
@@ -139,7 +139,13 @@ bool SampleApp::init(void)
     };
 
     // stworzenie tablicy z danymi o indeksach
-    std::array<gl::GLushort, 18u> indices = { 0, 1, 2, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
+    std::array<gl::GLushort, 18u> indices = { 0, 1, 2, // podstawa 1
+                                              0, 2, 3, // podstawa 2
+                                              4, 5, 6, // RED
+                                              13, 14, 15, // YELLOW
+                                              10, 11, 12, // CYAN
+                                              7, 8, 9 // BLUE
+    };
 
     std::cout << "Generating buffers..." << std::endl;
 
@@ -149,6 +155,7 @@ bool SampleApp::init(void)
     gl::glGenBuffers(1,&ubo_handle);
     gl::glBindBuffer(gl::GL_UNIFORM_BUFFER, ubo_handle);
     gl::GLfloat intensity = 1.0;
+
     // Mac glsl convert to opengl410
     gl::GLuint intensity_ubo_index = gl::glGetUniformBlockIndex(simple_program, "Intensity");
     gl::glUniformBlockBinding(simple_program, intensity_ubo_index, 1);
@@ -231,6 +238,13 @@ bool SampleApp::init(void)
     // zeby narysowac nasz model musimy ustawic odpowiednie VBO + IB (a dzieki temu ze VAO ma o nich iformacje sprowadza sie to do ustawienia odpowiedniego VAO, a przez to reszte buforow)
     // Czyli znowu bindujemy VAO
     gl::glBindVertexArray(vao_handle);
+
+    // zad. 7
+    gl::glEnable(gl::GL_CULL_FACE);
+    gl::glFrontFace(gl::GL_CCW);
+    gl::glCullFace(gl::GL_BACK);
+
+    // koniec zad. 7
 
 	return true;
 }
