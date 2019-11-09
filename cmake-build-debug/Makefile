@@ -247,6 +247,32 @@ OGLSample5_PVM/fast:
 	$(MAKE) -f src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir/build.make src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir/build
 .PHONY : OGLSample5_PVM/fast
 
+#=============================================================================
+# Target rules for targets named OGLSample6_Piramidka
+
+# Build rule for target.
+OGLSample6_Piramidka: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OGLSample6_Piramidka
+.PHONY : OGLSample6_Piramidka
+
+# fast build rule for target.
+OGLSample6_Piramidka/fast:
+	$(MAKE) -f src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/build.make src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/build
+.PHONY : OGLSample6_Piramidka/fast
+
+#=============================================================================
+# Target rules for targets named OGLSample7_Backface_culling
+
+# Build rule for target.
+OGLSample7_Backface_culling: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OGLSample7_Backface_culling
+.PHONY : OGLSample7_Backface_culling
+
+# fast build rule for target.
+OGLSample7_Backface_culling/fast:
+	$(MAKE) -f src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/build.make src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/build
+.PHONY : OGLSample7_Backface_culling/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,6 +292,8 @@ help:
 	@echo "... OGLSample3_VS_FS_Interpolation"
 	@echo "... OGLSample4_UBO_Intensity"
 	@echo "... OGLSample5_PVM"
+	@echo "... OGLSample6_Piramidka"
+	@echo "... OGLSample7_Backface_culling"
 .PHONY : help
 
 

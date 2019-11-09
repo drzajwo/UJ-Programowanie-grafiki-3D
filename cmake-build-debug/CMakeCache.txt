@@ -274,6 +274,18 @@ OGLSample5_PVM_BINARY_DIR:STATIC=/Users/wojci/Desktop/doZgrania/Studia UJ/Grafik
 OGLSample5_PVM_SOURCE_DIR:STATIC=/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample5_PVM
 
 //Value Computed by CMake
+OGLSample6_Piramidka_BINARY_DIR:STATIC=/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka
+
+//Value Computed by CMake
+OGLSample6_Piramidka_SOURCE_DIR:STATIC=/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample6_Piramidka
+
+//Value Computed by CMake
+OGLSample7_Backface_culling_BINARY_DIR:STATIC=/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling
+
+//Value Computed by CMake
+OGLSample7_Backface_culling_SOURCE_DIR:STATIC=/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample7_Backface_culling
+
+//Value Computed by CMake
 PG3D_OGLSamples_BINARY_DIR:STATIC=/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug
 
 //Value Computed by CMake
@@ -389,7 +401,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

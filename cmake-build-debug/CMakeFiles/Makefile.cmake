@@ -40,6 +40,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../src/OGLSample3_VS_FS_Interpolation/CMakeLists.txt"
   "../src/OGLSample4_UBO_Intensity/CMakeLists.txt"
   "../src/OGLSample5_PVM/CMakeLists.txt"
+  "../src/OGLSample6_Piramidka/CMakeLists.txt"
+  "../src/OGLSample7_Backface_culling/CMakeLists.txt"
   "../src/libs/OGLAppFramework/CMakeLists.txt"
   )
 
@@ -59,6 +61,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/OGLSample3_VS_FS_Interpolation/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/OGLSample4_UBO_Intensity/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/OGLSample5_PVM/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/OGLSample6_Piramidka/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/OGLSample7_Backface_culling/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -70,4 +74,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/OGLSample3_VS_FS_Interpolation/CMakeFiles/OGLSample3_VS_FS_Interpolation.dir/DependInfo.cmake"
   "src/OGLSample4_UBO_Intensity/CMakeFiles/OGLSample4_UBO_Intensity.dir/DependInfo.cmake"
   "src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir/DependInfo.cmake"
+  "src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/DependInfo.cmake"
+  "src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/DependInfo.cmake"
   )

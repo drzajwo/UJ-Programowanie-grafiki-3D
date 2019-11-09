@@ -5,7 +5,7 @@
 		<Option title="OGLSample0_EmptyScreen"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\libs\;CMake Files\src\libs\OGLAppFramework\;CMake Files\src\OGLSample0_EmptyScreen\;CMake Files\src\OGLSample1_Triangle\;CMake Files\src\OGLSample2_IB_VBO\;CMake Files\src\OGLSample3_VS_FS_Interpolation\;CMake Files\src\OGLSample4_UBO_Intensity\;CMake Files\src\OGLSample5_PVM\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\libs\;CMake Files\src\libs\OGLAppFramework\;CMake Files\src\OGLSample0_EmptyScreen\;CMake Files\src\OGLSample1_Triangle\;CMake Files\src\OGLSample2_IB_VBO\;CMake Files\src\OGLSample3_VS_FS_Interpolation\;CMake Files\src\OGLSample4_UBO_Intensity\;CMake Files\src\OGLSample5_PVM\;CMake Files\src\OGLSample6_Piramidka\;CMake Files\src\OGLSample7_Backface_culling\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample0_EmptyScreen"/>
@@ -103,6 +103,12 @@
 		</Unit>
 		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample5_PVM/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\OGLSample5_PVM\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample6_Piramidka/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample6_Piramidka\"/>
+		</Unit>
+		<Unit filename="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/src/OGLSample7_Backface_culling/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\OGLSample7_Backface_culling\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

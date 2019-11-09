@@ -60,6 +60,8 @@ add_subdirectory(src/OGLSample2_IB_VBO)
 add_subdirectory(src/OGLSample3_VS_FS_Interpolation)
 add_subdirectory(src/OGLSample4_UBO_Intensity)
 add_subdirectory(src/OGLSample5_PVM)
+add_subdirectory(src/OGLSample6_Piramidka)
+add_subdirectory(src/OGLSample7_Backface_culling)
 
 
 

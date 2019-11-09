@@ -53,3 +53,17 @@
 /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/CMakeFiles/rebuild_cache.dir
 /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/CMakeFiles/edit_cache.dir
 /Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka/CMakeFiles/install/local.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka/CMakeFiles/install/strip.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka/CMakeFiles/install.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka/CMakeFiles/list_install_components.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka/CMakeFiles/rebuild_cache.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka/CMakeFiles/edit_cache.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling/CMakeFiles/install/local.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling/CMakeFiles/install/strip.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling/CMakeFiles/install.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling/CMakeFiles/list_install_components.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling/CMakeFiles/rebuild_cache.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling/CMakeFiles/edit_cache.dir
+/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir

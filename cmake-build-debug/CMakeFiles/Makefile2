@@ -60,6 +60,8 @@ all: src/OGLSample2_IB_VBO/all
 all: src/OGLSample3_VS_FS_Interpolation/all
 all: src/OGLSample4_UBO_Intensity/all
 all: src/OGLSample5_PVM/all
+all: src/OGLSample6_Piramidka/all
+all: src/OGLSample7_Backface_culling/all
 
 .PHONY : all
 
@@ -71,6 +73,8 @@ clean: src/OGLSample2_IB_VBO/clean
 clean: src/OGLSample3_VS_FS_Interpolation/clean
 clean: src/OGLSample4_UBO_Intensity/clean
 clean: src/OGLSample5_PVM/clean
+clean: src/OGLSample6_Piramidka/clean
+clean: src/OGLSample7_Backface_culling/clean
 
 .PHONY : clean
 
@@ -82,6 +86,8 @@ preinstall: src/OGLSample2_IB_VBO/preinstall
 preinstall: src/OGLSample3_VS_FS_Interpolation/preinstall
 preinstall: src/OGLSample4_UBO_Intensity/preinstall
 preinstall: src/OGLSample5_PVM/preinstall
+preinstall: src/OGLSample6_Piramidka/preinstall
+preinstall: src/OGLSample7_Backface_culling/preinstall
 
 .PHONY : preinstall
 
@@ -399,6 +405,96 @@ OGLSample5_PVM: src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir/rule
 src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir/clean:
 	$(MAKE) -f src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir/build.make src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir/clean
 .PHONY : src/OGLSample5_PVM/CMakeFiles/OGLSample5_PVM.dir/clean
+
+#=============================================================================
+# Directory level rules for directory src/OGLSample6_Piramidka
+
+# Recursive "all" directory target.
+src/OGLSample6_Piramidka/all: src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/all
+
+.PHONY : src/OGLSample6_Piramidka/all
+
+# Recursive "clean" directory target.
+src/OGLSample6_Piramidka/clean: src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/clean
+
+.PHONY : src/OGLSample6_Piramidka/clean
+
+# Recursive "preinstall" directory target.
+src/OGLSample6_Piramidka/preinstall:
+
+.PHONY : src/OGLSample6_Piramidka/preinstall
+
+#=============================================================================
+# Target rules for target src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir
+
+# All Build rule for target.
+src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/all: src/libs/OGLAppFramework/CMakeFiles/OGLAppFramework.dir/all
+	$(MAKE) -f src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/build.make src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/depend
+	$(MAKE) -f src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/build.make src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles" --progress-num=22,23,24 "Built target OGLSample6_Piramidka"
+.PHONY : src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/all
+
+# Build rule for subdir invocation for target.
+src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles" 6
+	$(MAKE) -f CMakeFiles/Makefile2 src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles" 0
+.PHONY : src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/rule
+
+# Convenience name for target.
+OGLSample6_Piramidka: src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/rule
+
+.PHONY : OGLSample6_Piramidka
+
+# clean rule for target.
+src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/clean:
+	$(MAKE) -f src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/build.make src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/clean
+.PHONY : src/OGLSample6_Piramidka/CMakeFiles/OGLSample6_Piramidka.dir/clean
+
+#=============================================================================
+# Directory level rules for directory src/OGLSample7_Backface_culling
+
+# Recursive "all" directory target.
+src/OGLSample7_Backface_culling/all: src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/all
+
+.PHONY : src/OGLSample7_Backface_culling/all
+
+# Recursive "clean" directory target.
+src/OGLSample7_Backface_culling/clean: src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/clean
+
+.PHONY : src/OGLSample7_Backface_culling/clean
+
+# Recursive "preinstall" directory target.
+src/OGLSample7_Backface_culling/preinstall:
+
+.PHONY : src/OGLSample7_Backface_culling/preinstall
+
+#=============================================================================
+# Target rules for target src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir
+
+# All Build rule for target.
+src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/all: src/libs/OGLAppFramework/CMakeFiles/OGLAppFramework.dir/all
+	$(MAKE) -f src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/build.make src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/depend
+	$(MAKE) -f src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/build.make src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles" --progress-num=25,26,27 "Built target OGLSample7_Backface_culling"
+.PHONY : src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/all
+
+# Build rule for subdir invocation for target.
+src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles" 6
+	$(MAKE) -f CMakeFiles/Makefile2 src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/CMakeFiles" 0
+.PHONY : src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/rule
+
+# Convenience name for target.
+OGLSample7_Backface_culling: src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/rule
+
+.PHONY : OGLSample7_Backface_culling
+
+# clean rule for target.
+src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/clean:
+	$(MAKE) -f src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/build.make src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/clean
+.PHONY : src/OGLSample7_Backface_culling/CMakeFiles/OGLSample7_Backface_culling.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

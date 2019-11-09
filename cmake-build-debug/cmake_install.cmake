@@ -41,6 +41,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample3_VS_FS_Interpolation/cmake_install.cmake")
   include("/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample4_UBO_Intensity/cmake_install.cmake")
   include("/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample5_PVM/cmake_install.cmake")
+  include("/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample6_Piramidka/cmake_install.cmake")
+  include("/Users/wojci/Desktop/doZgrania/Studia UJ/Grafika/cw/cmake-build-debug/src/OGLSample7_Backface_culling/cmake_install.cmake")
 
 endif()
 
