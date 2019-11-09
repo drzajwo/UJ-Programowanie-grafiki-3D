@@ -1,6 +1,6 @@
 #include "sampleapp.h"
 
-SampleApp::SampleApp() : OGLAppFramework::OGLApplication(1366u, 768u, "OGLSample 7", 3u, 3u), simple_program(0u), vbo_handle(0u), index_buffer_handle(0u), vao_handle(0u)
+SampleApp::SampleApp() : OGLAppFramework::OGLApplication(1366u, 768u, "OGLSample 8", 3u, 3u), simple_program(0u), vbo_handle(0u), index_buffer_handle(0u), vao_handle(0u)
 {
 }
 
@@ -48,13 +48,12 @@ bool SampleApp::init(void)
     // ustalamy domyślny kolor ekranu
     gl::glClearColor(0.2f, 0.2f, 0.2f, 1.f);
 
-    gl::glEnable(gl::GL_DEPTH_TEST);
     // wlaczmy renderowanie tylko jednej strony poligon-ow
-    gl::glEnable(gl::GL_CULL_FACE);
+//    gl::glEnable(gl::GL_CULL_FACE);
     // ustalamy, ktora strona jest "przodem"
-    gl::glFrontFace(gl::GL_CCW);
+//    gl::glFrontFace(gl::GL_CCW);
     // ustalamy, ktorej strony nie bedziemy renderowac
-    gl::glCullFace(gl::GL_BACK);
+//    gl::glCullFace(gl::GL_BACK);
 
     std::cout << "Shaders compilation..." << std::endl;
     // wczytanie z plikow i skompilowanie shaderow oraz utworzenie programu (VS + FS)
@@ -85,15 +84,13 @@ bool SampleApp::init(void)
     // zad 6. Każdy trójkąt musi być unikalny alby mieć swój kolor.
     std::array<gl::GLfloat, 96u> vertices = {
         // Podstawa 1 trójkąt GREEN
-            -0.5f, 0.5f, 0.f,
-            0.f, 1.0f, 0.f,
-
-        0.5f, -0.5f, 0.f,
-        0.f, 1.f, 0.f,
-
-
+        -0.5f, 0.5f, 0.f,
+        0.f, 1.0f, 0.f,
 
         -0.5f, -0.5f, 0.f,
+        0.f, 1.f, 0.f,
+
+        0.5f, -0.5f, 0.f,
         0.f, 1.f, 0.f,
 
         // Podstawa 2 trójkąt GREEN
@@ -143,7 +140,7 @@ bool SampleApp::init(void)
 
     // stworzenie tablicy z danymi o indeksach
     std::array<gl::GLushort, 18u> indices = { 0, 1, 2, // podstawa 1
-                                              1, 0, 3, // podstawa 2
+                                              0, 2, 3, // podstawa 2
                                               4, 5, 6, // RED
                                               13, 14, 15, // YELLOW
                                               10, 11, 12, // CYAN
@@ -241,6 +238,13 @@ bool SampleApp::init(void)
     // zeby narysowac nasz model musimy ustawic odpowiednie VBO + IB (a dzieki temu ze VAO ma o nich iformacje sprowadza sie to do ustawienia odpowiedniego VAO, a przez to reszte buforow)
     // Czyli znowu bindujemy VAO
     gl::glBindVertexArray(vao_handle);
+
+    // zad. 7
+    gl::glEnable(gl::GL_CULL_FACE);
+    gl::glFrontFace(gl::GL_CCW);
+    gl::glCullFace(gl::GL_BACK);
+
+    // koniec zad. 7
 
 	return true;
 }

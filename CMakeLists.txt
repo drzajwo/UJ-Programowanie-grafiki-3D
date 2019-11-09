@@ -62,6 +62,7 @@ add_subdirectory(src/OGLSample4_UBO_Intensity)
 add_subdirectory(src/OGLSample5_PVM)
 add_subdirectory(src/OGLSample6_Piramidka)
 add_subdirectory(src/OGLSample7_Backface_culling)
+add_subdirectory(src/OGLSample8_Textury)
 
 
 
