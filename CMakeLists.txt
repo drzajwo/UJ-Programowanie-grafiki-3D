@@ -63,6 +63,8 @@ add_subdirectory(src/OGLSample5_PVM)
 add_subdirectory(src/OGLSample6_Piramidka)
 add_subdirectory(src/OGLSample7_Backface_culling)
 add_subdirectory(src/OGLSample8_Textury)
+add_subdirectory(src/OGLSample9_MultiPiramida)
+add_subdirectory(src/OGLSample12_Resize)
 
 
 

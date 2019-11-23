@@ -1,4 +1,6 @@
 #include "sampleapp.h"
+#define STB_IMAGE_IMPLEMENTATION
+#include "stb_image.h"
 
 SampleApp::SampleApp() : OGLAppFramework::OGLApplication(1366u, 768u, "OGLSample 8", 3u, 3u), simple_program(0u), vbo_handle(0u), index_buffer_handle(0u), vao_handle(0u)
 {
@@ -58,7 +60,7 @@ bool SampleApp::init(void)
     std::cout << "Shaders compilation..." << std::endl;
     // wczytanie z plikow i skompilowanie shaderow oraz utworzenie programu (VS + FS)
     std::string vs_path = "../../../shaders/simple_uniform_vs.glsl";
-    std::string fs_path = "../../../shaders/simple_fs.glsl";
+    std::string fs_path = "../../../shaders/simple_fs_textura.glsl";
 #if WIN32
     vs_path = "../../../../shaders/simple_vs.glsl";
     fs_path = "../../../../shaders/simple_fs.glsl";
@@ -79,63 +81,77 @@ bool SampleApp::init(void)
     // ustawienie programu, ktory bedzie uzywany podczas rysowania
     gl::glUseProgram(simple_program);
 
+    // zad 8. Załadowanie obrazka
+    int width, height, bpp;
+    uint8_t *texture_img = stbi_load("/Users/wojci/Desktop/Studia UJ/Grafika/cw/src/OGLSample8_Textury/multicolor.png", &width, &height, &bpp, 0);
+    // tworzenie i bidnowanie testury
+    gl::GLuint color_texture;
+    gl::glGenTextures(1, &color_texture);
+    gl::glBindTexture(gl::GL_TEXTURE_2D,color_texture);
+    // ustawienie parametrów
+    gl::glTexParameteri(gl::GL_TEXTURE_2D, gl::GL_TEXTURE_MIN_FILTER, gl::GL_LINEAR);
+    gl::glTexParameteri(gl::GL_TEXTURE_2D, gl::GL_TEXTURE_MAG_FILTER, gl::GL_LINEAR);
+    // załadowanie do niej obrazka
+    gl::glTexImage2D(gl::GL_TEXTURE_2D, 0, gl::GL_RGBA,width, height, 0,
+            gl::GL_RGB, gl::GL_UNSIGNED_BYTE,  texture_img );
+
     // stworzenie tablicy z danymi o wierzcholkach 3x (x, y, z)
     // oraz kolorach
     // zad 6. Każdy trójkąt musi być unikalny alby mieć swój kolor.
     std::array<gl::GLfloat, 96u> vertices = {
-        // Podstawa 1 trójkąt GREEN
+        // Podstawa 1 trójkąt
         -0.5f, 0.5f, 0.f,
-        0.f, 1.0f, 0.f,
+        0.191f, 0.5f, 0.f,
 
         -0.5f, -0.5f, 0.f,
-        0.f, 1.f, 0.f,
+        0.5f, 0.191f, 0.f,
 
         0.5f, -0.5f, 0.f,
-        0.f, 1.f, 0.f,
+        0.809f, 0.5f, 0.f,
 
-        // Podstawa 2 trójkąt GREEN
+        // Podstawa 2 trójkąt
         0.5f, 0.5f, 0.f,
-        0.f, 1.f, 0.f,
+        0.5f, 0.809f, 0.f,
 
         // bok 1 RED
         -0.5f, 0.5f, 0.f,
-        1.0, 0.f, 0.f,
+        0.191f, 0.5f, 0.f,
 
         -0.5f, -0.5f, 0.f,
-        1.0f, 0.f, 0.f,
+        0.5f, 0.191f, 0.f,
 
         0.f,  0.f, 1.f,
-        1.0f, 0.f, 0.f,
+        0.f, 0.f, 0.f,
 
         // bok 2 BLUE
         -0.5f, 0.5f, 0.f,
-        0.0, 0.f, 1.f,
+        0.191f, 0.5f, 0.f,
 
         0.f,  0.f, 1.f,
-        0.f, 0.f, 1.f,
+        0.f, 1.f, 0.f,
 
         0.5f, 0.5f, 0.f,
-        0.f, 0.f, 1.f,
+        0.5f, 0.809f, 0.f,
 
         // bok 3 CYAN
         0.f,  0.f, 1.f,
-        0.f, 1.f, 1.f,
+        1.f, 1.f, 0.f,
 
         0.5f, -0.5f, 0.f,
-        0.f, 1.f, 1.f,
+        0.809f, 0.5f, 0.f,
 
         0.5f, 0.5f, 0.f,
-        0.f, 1.f, 1.f,
+        0.5f, 0.809f, 0.f,
 
         // bok 4 YELLOW
         -0.5f, -0.5f, 0.f,
-        1.0f, 1.f, 0.f,
+        0.5f, 0.191f, 0.f,
 
         0.5f, -0.5f, 0.f,
-        1.f, 1.f, 0.f,
+        0.809f, 0.5f, 0.f,
 
         0.f,  0.f, 1.f,
-        1.f, 1.f, 0.f,
+        1.f, 0.f, 0.f,
     };
 
     // stworzenie tablicy z danymi o indeksach
@@ -149,6 +165,12 @@ bool SampleApp::init(void)
 
     std::cout << "Generating buffers..." << std::endl;
 
+    // zad 8.
+    auto  color_sampler_location = gl::glGetUniformLocation(simple_program,"color");
+    if(color_sampler_location == -1)  {
+        std::cout<<"cannot get uniform color location\n";
+    }
+    gl::glUniform1i(color_sampler_location, 0);
 
     // zad 4.
     gl::GLuint ubo_handle(0u);
@@ -175,7 +197,7 @@ bool SampleApp::init(void)
     glm::mat4 Model(1.0f);
     // lookat(camera position, what am i looking for, where up is)
     // zad 6. ważnym aspektem jest góra, jeżeli pozycja kamery na osi z jest większa niż 1 to góra wtedy była niżej
-    glm::mat4 View = glm::lookAt(glm::vec3(0.f,0.f,2.0f), glm::vec3(0,0,0), glm::vec3(0,1,1));
+    glm::mat4 View = glm::lookAt(glm::vec3(-0.5f,-0.5f,2.5f), glm::vec3(0,0,0), glm::vec3(0,1,1));
 
     glm::mat4 Projection = glm::perspective(1.08f, (16.f/9.f), 0.1f, 20.f);
 
